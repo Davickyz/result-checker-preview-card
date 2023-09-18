@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Checker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" title="logo" href="icons/favicon-32x32.png">
+</head>
+<body>
+  <div class="content">
+    <!-- the overall score -->
+    <section class="overall">
+      <p class="fadedText">Your Result</p>
+      <div id="innerCircle">
+        <p id="score">76</p>
+        <p class="fadedText">of 100</p>
+      </div>
+      <p id="great">Great</p>
+      <p class="fadedText" id="scoreText">You scored higher than 65% of the
+        people who have taken these tests.</p>
+    </section>
+    <!-- Summary -->
+    <section id="summary">
+      <p id="summaryText">SUMMARY</p>
+      <!-- reaction -->
+      <div class="summaryBox" id="firstbox">
+        <div class="icon-reaction">
+          <img src="icons/icon-reaction.svg" alt="reaction">
+          <p class="emote reaction">Reaction</p>
+        </div>
+        <div><p> 80 / <span class="fadedText">100 <span><p></p></div>
+      </div>
+      <!-- Memory -->
+      <div class="summaryBox" id="secondbox">
+        <div class="icon-reaction">
+          <img src="icons/icon-memory.svg" alt="reaction">
+          <p class="emote memory">Memory</p>
+        </div>
+        <div><p> 80 / <span class="fadedText">100 <span><p></p></div>
+      </div>
+      <!-- Verbal -->
+      <div class="summaryBox" id="thirdbox">
+        <div class="icon-reaction">
+          <img src="icons/icon-verbal.svg" alt="reaction">
+          <p class="emote verbal">Verbal</p>
+        </div>
+        <div><p> 80 / <span class="fadedText">100 <span><p></p></div>
+      </div>
+      <!-- Visual -->
+      <div class="summaryBox" id="fourthbox">
+        <div class="icon-reaction">
+          <img src="icons/icon-visual.svg" alt="reaction">
+          <p class="emote visual">Visual</p>
+        </div>
+        <div><p> 80 / <span class="fadedText">100 <span><p></p></div>
+      </div>
+      <!-- Button -->
+      <div class="btn">
+        <button class="Continue">Continue</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
